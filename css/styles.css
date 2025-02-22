@@ -1,0 +1,53 @@
+/* Reset default styles */
+* {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0px auto;
+    line-height: 1.8;
+}
+
+/* Container styling for layout */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Visualization area dimensions */
+#vis {
+    width: 600px;
+    height: 400px;
+    margin: 2rem 0;
+    border: 1px solid #ccc; /*otherwise you can't see this part*/
+}
+
+.bar-label {
+    text-anchor: middle;  /* Centers text horizontally */
+}
+
+/* Add to your styles.css */
+.x-axis path,
+.y-axis path,
+.x-axis line,
+.y-axis line {
+    stroke: #333;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.x-axis text,
+.y-axis text {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
